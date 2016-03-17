@@ -1,0 +1,109 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+/***************************/
+    /*    BANNER MAIN  */
+/***************************/
+
+.custom_info_banner{
+  text-align: right;
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+/****************************/
+/* grid home css information */
+/****************************/
+.custom-grid-information .view-display-id-block .views-view-grid td
+{
+    display:table-cell;
+    width: 0%;
+}
+/****************************/
+/* grid home css information */
+/****************************/
+
+/* LIST VIEW PROPERTIES*/
+.custom_list_properties{
+  text-align: left;
+}
+
+.custom-td-property .views-field-property-bedrooms
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-property-bedrooms div
+{
+ margin-left: 5px; 
+}
+
+.custom-td-property .views-field-field-bath-total
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-field-bath-total div
+{
+ margin-left: 5px; 
+}
+
+.custom-td-property .views-field-field-location
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-field-location div
+{
+ margin-left: 5px; 
+}
+
+.custom-td-property .views-field-field-type-property
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-field-type-property div
+{
+ margin-left: 5px; 
+}
+
+
+.custom-td-property .views-field.views-field-property-price
+{
+ display: inline-flex;
+ margin-top: 3px; 
+}
+.custom-td-property .views-field.views-field-property-price div
+{
+ margin-left: 5px; 
+}
+/* LIST VIEW PROPERTIES*/
+/***************************/
+
+.view-real-estate-property-list .views-field.views-field-title span a
+{
+   color: green; 
+}
+
+.view-real-estate-property-list .view-content table tbody tr td
+{
+  vertical-align: top;
+  /*border: 1px solid grey;*/
+  width: 200px !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  display:table-cell;
+  border-color: -moz-linear-gradient(top, #555555, #111111);
+
+}
+.view-real-estate-property-list .view-content table tbody tr td div
+{
+  width: 220px;
+  
+}
+
+
+.container-12 .grid-9 { /* Permit block search change position*/
+    width: 880px !important;
+}
+

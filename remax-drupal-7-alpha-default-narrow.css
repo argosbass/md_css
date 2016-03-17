@@ -1,0 +1,109 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+/***************************/
+    /*    BANNER MAIN  */
+/***************************/
+
+.custom_info_banner{
+  text-align: right;
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+/****************************/
+/* grid home css information */
+/****************************/
+
+.custom-grid-information .view-display-id-block .views-view-grid td
+{
+    display:table-cell;
+    width: 0%;
+}
+/****************************/
+/* grid home css information */
+/****************************/
+
+/***************************/
+/* LIST VIEW PROPERTIES*/
+.custom_list_properties{
+  text-align: left;
+}
+
+.view-real-estate-property-list .view-content table tbody tr td
+{
+   vertical-align: top;
+  /*border: 1px solid grey;*/
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  display:table-cell;
+  border-color: -moz-linear-gradient(top, #555555, #111111);
+}
+
+.custom_search_box
+{
+  float: left;
+}
+
+.custom-td-property .views-field-property-bedrooms
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-property-bedrooms div
+{
+ margin-left: 5px; 
+}
+
+.custom-td-property .views-field-field-bath-total
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-field-bath-total div
+{
+ margin-left: 5px; 
+}
+
+.custom-td-property .views-field-field-location
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-field-location div
+{
+ margin-left: 5px; 
+}
+
+.custom-td-property .views-field-field-type-property
+{
+ display: inline-flex;
+ margin-top: 3px;
+}
+.custom-td-property .views-field-field-type-property div
+{
+ margin-left: 5px; 
+}
+
+
+.custom-td-property .views-field.views-field-property-price
+{
+ display: inline-flex;
+ margin-top: 3px; 
+}
+.custom-td-property .views-field.views-field-property-price div
+{
+ margin-left: 5px; 
+}
+/* LIST VIEW PROPERTIES*/
+/***************************/
+.view-real-estate-property-list .views-field.views-field-title span a
+{
+   color: red; 
+}
+.container-12 .grid-9 {
+    width: 521px !important;
+    min-width: 701px !important;
+}
