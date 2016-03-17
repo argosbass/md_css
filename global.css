@@ -354,12 +354,24 @@ table
 
 .view-real-estate-property-list .views-field.views-field-title
 {
-  font-size: 20px;
+    height: 50px;
+    border-bottom: 1px solid #C1C1C1;
+    word-wrap: break-word;
+    font-size: 14px;
+    margin: 10px 0;
   
 }
 .view-real-estate-property-list .view-content .views-field.views-field-property-photo
 {
   text-align: center;
+}
+.view-real-estate-property-list .view-content .views-field.views-field-property-photo img
+{
+  max-width: 220px;
+  max-height: 146px;
+  width: 220px;
+  height: 146px;
+  
 }
 
 
@@ -377,19 +389,19 @@ table
 
 }
 
-.view-real-estate-property-list .views-field.views-field-title span:after
+.view-real-estate-property-list .views-field
 {
-    content: "";
-    display: block;
-    height: 1px;
-    margin: 10px;
-    background: #C1C1C1;
+  word-wrap: break-word;
+  font-size: 12px;
+  margin: 5px 0;
+  
 }
-
 .view-real-estate-property-list .views-field.views-field-body
 {
+  height: 45px;
+  font-size: 13px;
   font-weight: bold;
-  vertical-align: top;
+  
 }
 .view-real-estate-property-list .views-field.views-field-view-node
 {
@@ -404,7 +416,8 @@ table
 
 .view-real-estate-property-list .views-field.views-field-title span a
 {
-   color: #E57B42; 
+   color: #E57B42;
+   font-size: 14px;
 }
 
 .view-real-estate-property-list .view-content table
