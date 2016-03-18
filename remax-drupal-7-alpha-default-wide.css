@@ -107,3 +107,11 @@
     width: 880px !important;
 }
 
+
+#zone-menu .block-superfish ul.sf-main-menu.sf-horizontal a,
+#zone-menu .block-superfish ul.sf-main-menu.sf-horizontal span.nolink {
+  display: block;
+  padding: .8em 3.4em .7em;
+  
+  position: relative;
+}
