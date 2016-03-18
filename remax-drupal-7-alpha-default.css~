@@ -1,7 +1,4 @@
-/* This file will hold styles that are loaded using the same media query as the narrow grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the normal and widescreen layouts. You may override these styles in the normal 
- *  and widescreen CSS files as appropriate. */
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 /***************************/
     /*    BANNER MAIN  */
 /***************************/
@@ -11,11 +8,24 @@
   vertical-align: top;
   margin: 0 auto;
 }
+.logo-img{
+  width: 30%;
+  text-align: center;
+}
+
+
+/* MENU */
+
+.block-superfish ul.sf-main-menu{
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+  color:'#305C8E';
+}
 
 /****************************/
 /* grid home css information */
 /****************************/
-
 .custom-grid-information .view-display-id-block .views-view-grid td
 {
     display:table-cell;
@@ -25,7 +35,6 @@
 /* grid home css information */
 /****************************/
 
-/***************************/
 /* LIST VIEW PROPERTIES*/
 .custom_list_properties{
   text-align: left;
@@ -33,18 +42,13 @@
 
 .view-real-estate-property-list .view-content table tbody tr td
 {
-   vertical-align: top;
+  vertical-align: top;
   /*border: 1px solid grey;*/
   width: auto;
   padding-left: 5px;
   padding-right: 5px;
   display:table-cell;
   border-color: -moz-linear-gradient(top, #555555, #111111);
-}
-
-.custom_search_box
-{
-  float: left;
 }
 
 .custom-td-property .views-field-property-bedrooms
@@ -97,15 +101,11 @@
 {
  margin-left: 5px; 
 }
+
 /* LIST VIEW PROPERTIES*/
 /***************************/
 
 .view-real-estate-property-list .views-field.views-field-title span a
 {
    color: red; 
-}
-
-.container-12 .grid-9 {
-    width: 521px !important;
-    min-width: 701px !important;
 }

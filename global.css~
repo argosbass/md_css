@@ -2,21 +2,18 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /*****************************/
-/*      GENERAL STYLES       */
+/*       */
 /*****************************/
+
+
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700');
+
+
 /* text + defaults */
 body, td, input, textarea, select, option{
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   color: #545454;
   font-size: 12px;
-}
-
-
-tr:hover td,
-tr.even:hover td.active,
-tr.odd:hover td.active {
-  background: #FFFFFF;
 }
 
 body {
@@ -273,67 +270,7 @@ border-bottom: 1px solid #335387;
   background-color: #E9E6D5;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  padding: 6px;
-  margin-right: 50px;
 } 
-select{
-  -webkit-border-radius:4px;
-  -moz-border-radius:4px;
-  border-radius:4px;
-  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-  box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-  color:#888;
-  border:none;
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  width: 215px;
-}
-
-.custom_box_search .form-type-textfield input
-{
-  width: 215px;
-  border-radius:4px;
-  margin-top: 5px;
-}
-
-.custom_box_search .views-widget-per-page
-{
-  
-  text-align: center;
-} 
-.custom_box_search .views-exposed-form .views-exposed-widget
-{
-  float: none;
-}
-
-.custom_box_search .views-submit-button
-{
-  text-align: center;
-
-}
-
-
-.custom_box_search .views-submit-button input
-{
-
-  
-  background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
-  border-radius:0px;
-  background-color:#637aad;
-  border:1px solid #314179;
-  display:inline-block;
-  color:#ffffff;
-  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
-  letter-spacing: 2px;
-  padding:10px 12px;
-  text-decoration:none;
-  text-shadow: none;
-  font-size: 16px;
-  margin-top: 0.6em !important;
-  width: 215px;
-
-}
 /* BOX SEARCH*/
 /*************************/
 
@@ -396,9 +333,8 @@ table
 {
   height: 45px;
   font-size: 13px;
-  color: #3D3D3D;
-  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
-  font-weight: 600;
+  font-weight: bold;
+  
 }
 .view-real-estate-property-list .views-field.views-field-view-node
 {
@@ -523,8 +459,8 @@ table
 .custom-grid-information .view-display-id-block .views-view-grid .views-field-title span
 {
   font-size: 22px;
-  color: #336CB8;
 }
+
 /****************************/
 /* grid home css information */
 /****************************/
@@ -536,7 +472,7 @@ table
 /**************************/
 .custom_footer_block h2.block-title{
   font-weight:normal;
- 
+  text-shadow: 1px 1px #999;
   font-size: 17px;
   color: '#1111';
 }
@@ -547,7 +483,6 @@ table
 
 .custom_footer_block p{
   color: grey;
-
 }
 
 .custom_footer_social_row ul li{
