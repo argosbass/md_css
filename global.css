@@ -339,72 +339,32 @@ select{
 
 /***************************/
 /* LIST VIEW PROPERTIES*/
-table
-{
-  border: none;
-}
-.custom_list_properties{
-  text-align: center;
-}
 
 
-.view-real-estate-property-list .views-field.views-field-title
-{
-    height: 50px;
-    border-bottom: 1px solid #C1C1C1;
-    word-wrap: break-word;
-    font-size: 14px;
-    margin: 10px 0;
-  
-}
-.view-real-estate-property-list .view-content .views-field.views-field-property-photo
-{
-  text-align: center;
-}
 .view-real-estate-property-list .view-content .views-field.views-field-property-photo img
 {
   max-width: 220px;
   max-height: 146px;
   width: 220px;
   height: 146px;
-  
-}
-
-
-
-.view-real-estate-property-list .grid-9
-{
-  text-align: center;
-}
-
-.container-12 .grid-3
-{
- margin-left: 10px;
- margin-right: 10px;
- position: relative;
 
 }
 
-.view-real-estate-property-list .views-field
-{
-  word-wrap: break-word;
-  font-size: 12px;
-  margin: 5px 0;
-  
-}
 .view-real-estate-property-list .views-field.views-field-body
 {
   height: 45px;
-  font-size: 13px;
   color: #3D3D3D;
   font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
   font-weight: 600;
 }
+
 .view-real-estate-property-list .views-field.views-field-view-node
 {
   background-image: url(../images/toolbar_find.png);
   background-repeat: no-repeat;
-  background-size: 18px 18px;
+  background-size: 10px 10px;
+  margin:20px 10px;
+  background-position: 3px 6px;
 }
 .view-real-estate-property-list .views-field.views-field-view-node span a
 {
@@ -414,82 +374,57 @@ table
 .view-real-estate-property-list .views-field.views-field-title span a
 {
    color: #E57B42;
-   font-size: 14px;
+   text-transform: uppercase;
 }
 
-.view-real-estate-property-list .view-content table
+.custom-column-property .views-field.views-field-title,
+.custom-column-property .views-field.views-field-property-bedrooms,
+.custom-column-property .views-field.views-field-field-bath-total,
+.custom-column-property .views-field.views-field-field-location,
+.custom-column-property .views-field.views-field-field-type-property,
+.custom-column-property .views-field.views-field-property-price
 {
-  border-spacing: 10px;
-  border-collapse: separate;
-    margin-left:auto; 
-    margin-right:auto;
+ display: inline-flex;
+ margin-top: 5px;
+ width: 90%; 
 }
-.view-real-estate-property-list .view-content table tbody tr td
+
+
+.custom-column-property .views-field
 {
-  vertical-align: top;
-  border: 1px solid grey;
-  width: 220px;
- padding: 0px;
-  display: block;
-  text-align: left;
-  margin: auto;
-   margin-top: 20px;
+    font-size: 14px;
+    margin:0 10px;
 }
-.view-real-estate-property-list .view-content table tbody tr td div
+.custom-column-property .views-field div.field-content
 {
-  width: 220px;
+    margin-left:5px;
+}
+
+.view-real-estate-property-list .views-field.views-field-title
+{
+    height: 50px;
+    border-bottom: 1px solid #C1C1C1;
+    word-wrap: break-word;
+    font-size: 14px;
+    margin: 10px 10px;
   
 }
 
-.custom-td-property .views-field-property-bedrooms
+.custom-column-property .views-field.views-field-property-photo,
+.custom-column-property .views-field.views-field-property-photo div.field-content
 {
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-property-bedrooms div
-{
- margin-left: 5px; 
+    margin:0;
+    text-align: center;
 }
 
-.custom-td-property .views-field-field-bath-total
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-field-bath-total div
-{
- margin-left: 5px; 
+
+.custom-column-property.grid-3{
+   
+    margin: 0 35px 20px;
+    border-bottom: 9px double #D7CAA7;
 }
 
-.custom-td-property .views-field-field-location
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-field-location div
-{
- margin-left: 5px; 
-}
 
-.custom-td-property .views-field-field-type-property
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-field-type-property div
-{
- margin-left: 5px; 
-}
-
-.custom-td-property .views-field.views-field-property-price
-{
- display: inline-flex;
- margin-top: 5px; 
-}
-.custom-td-property .views-field.views-field-property-price div
-{
- margin-left: 5px; 
-}
 
 /* LIST VIEW PROPERTIES*/
 /****************************/

@@ -27,77 +27,7 @@
 
 /***************************/
 /* LIST VIEW PROPERTIES*/
-.custom_list_properties{
-  text-align: left;
-}
 
-.view-real-estate-property-list .view-content table tbody tr td
-{
-   vertical-align: top;
-  /*border: 1px solid grey;*/
-  width: auto;
-  padding-left: 5px;
-  padding-right: 5px;
-  display:table-cell;
-  border-color: -moz-linear-gradient(top, #555555, #111111);
-}
-
-.custom-td-property .views-field-property-bedrooms
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-property-bedrooms div
-{
- margin-left: 5px; 
-}
-
-.custom-td-property .views-field-field-bath-total
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-field-bath-total div
-{
- margin-left: 5px; 
-}
-
-.custom-td-property .views-field-field-location
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-field-location div
-{
- margin-left: 5px; 
-}
-
-.custom-td-property .views-field-field-type-property
-{
- display: inline-flex;
- margin-top: 3px;
-}
-.custom-td-property .views-field-field-type-property div
-{
- margin-left: 5px; 
-}
-
-
-.custom-td-property .views-field.views-field-property-price
-{
- display: inline-flex;
- margin-top: 3px; 
-}
-.custom-td-property .views-field.views-field-property-price div
-{
- margin-left: 5px; 
-}
-
-
-.view-real-estate-property-list .views-field.views-field-title span a
-{
-   color: blue; 
-}
 
 
 #zone-menu .block-superfish ul.sf-main-menu.sf-horizontal a,
@@ -107,6 +37,46 @@
   
   position: relative;
 }
+
+
+
+
+.custom-column-property.grid-3{
+    
+    width: 190px !important;
+    margin: 0 20px 20px;
+    border: 1px solid #D7CAA7;
+}
+
+.view-real-estate-property-list .view-content .views-field.views-field-property-photo img
+{
+  max-width: 190px;
+  max-height: 116px;
+  width: 190px;
+  height: 116px;
+
+}
+
+.custom-column-property .views-field.views-field-field-location
+{
+ display: block;
+}
+.custom-column-property .views-field.views-field-field-location div.field-content
+{
+    margin-left:0px;
+}
+.view-real-estate-property-list .views-field.views-field-body
+{
+    height: 75px;
+    font-size: 13px;
+}
+.view-real-estate-property-list .views-field.views-field-title
+{
+    height: 75px;
+    font-size: 13px;
+  
+}
+
 
 
 
