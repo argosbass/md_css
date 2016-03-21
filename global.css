@@ -440,10 +440,6 @@ table
   width: 220px;
   
 }
-#block-system-main
-{
-  text-align: center;
-}
 
 .custom-td-property .views-field-property-bedrooms
 {
@@ -529,7 +525,57 @@ table
 /* grid home css information */
 /****************************/
 
+/***************************/
+/*** CSS BLOG ***/
 
+.custom_list_properties h1
+{
+  text-align: center;
+  border-bottom: 1px solid #c1c1c1;
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+
+.view-blogs.view-id-blogs .views-row
+{
+
+  border-bottom: 1px solid #c1c1c1;
+  margin-top: 20px;
+} 
+
+.view-blogs.view-id-blogs .views-row .views-field-field-image
+{
+  text-align: center;
+  vertical-align: top;
+} 
+
+.view-blogs.view-id-blogs .views-row .views-field-title
+{
+  text-align: left;
+  padding-left: 5%;
+  font-size: 23px;
+} 
+.view-blogs.view-id-blogs .views-row .views-field-title a:hover
+{
+ color: #AA8C70;
+}
+.view-blogs.view-id-blogs .views-row .views-field-body
+{
+  text-align: left;
+  padding-left: 5%;
+  color: grey;
+} 
+.view-blogs.view-id-blogs .views-row .views-field-body a:hover
+{
+  color: #AA8C70;
+} 
+.view-blogs.view-id-blogs .views-row .views-field-body img
+{
+  display: none;
+} 
+
+/*** CSS BLOG ***/
+/**************************/
 
 /**************************/
 /*START custom css footer*/
