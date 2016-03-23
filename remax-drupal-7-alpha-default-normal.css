@@ -1,3 +1,8 @@
+/************************************/
+/*    3rd FILE PRIORITY - NO USE    */
+/************************************/
+
+
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
@@ -85,7 +90,7 @@
 
 /*************************/
 /* BOX SEARCH */
-.custom_box_search
+.OLD_custom_box_search
 {
   background-color: #E9E6D5;
   border-bottom-right-radius: 10px;
@@ -108,31 +113,31 @@ select{
   width: 215px;
 }
 
-.custom_box_search .form-type-textfield input
+.OLD_custom_box_search .form-type-textfield input
 {
   width: 215px;
   border-radius:4px;
   margin-top: 5px;
 }
 
-.custom_box_search .views-widget-per-page
+.OLD_custom_box_search .views-widget-per-page
 {
   
   text-align: center;
 } 
-.custom_box_search .views-exposed-form .views-exposed-widget
+.OLD_custom_box_search .views-exposed-form .views-exposed-widget
 {
   float: none;
 }
 
-.custom_box_search .views-submit-button
+.OLD_custom_box_search .views-submit-button
 {
   text-align: center;
 
 }
 
 
-.custom_box_search .views-submit-button input
+.OLD_custom_box_search .views-submit-button input
 {
 
   
@@ -185,3 +190,5 @@ select{
 
 /*** CSS BLOG ***/
 /**************************/
+
+

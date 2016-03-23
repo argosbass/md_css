@@ -1,3 +1,7 @@
+/***************************/
+/*    4th FILE PRIORITY    */
+/***************************/
+
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 /***************************/
     /*    BANNER MAIN  */
@@ -36,3 +40,13 @@
 /****************************/
 
 /***************************/
+
+
+
+/******************************/
+/* START pagination css   */
+/******************************/
+
+.item-list .pager {
+  margin-right: 25px;
+}

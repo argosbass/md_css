@@ -62,6 +62,12 @@ div#region-header-first
     height: 290px;
 }
 
+body.not-front div#region-header-first
+{
+    border-bottom: none;
+}
+
+
 div#zone-footer
 {
 
@@ -268,44 +274,103 @@ border-bottom: 1px solid #335387;
 
 /*************************/
 /* BOX SEARCH */
+
 .custom_box_search
 {
   background-color: #E9E6D5;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   padding: 6px;
-  margin-right: 50px;
+  border: 1px solid #CBCAC7;
 } 
-select{
-  -webkit-border-radius:4px;
-  -moz-border-radius:4px;
-  border-radius:4px;
-  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-  -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-  box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
-  color:#888;
-  border:none;
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  width: 215px;
+
+.custom_box_search .views-exposed-form .views-exposed-widget {
+    width: 100%;
 }
 
-.custom_box_search .form-type-textfield input
+.custom_box_search select,
+.custom_box_search input
 {
-  width: 215px;
-  border-radius:4px;
-  margin-top: 5px;
+    color: #888888;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid #CECDCB;
+    border-radius: 0px;
+    height: 34px;
+    box-shadow: none;
+
+}
+.custom_box_search .form-item{
+    margin: 5px 0;
+}
+
+.custom_box_search select{
+    background: url(../images/select-box-arrow.gif) no-repeat right #FFF;
+    -webkit-appearance: none;
+    background-position-x: 98%;
+}
+
+.custom_box_search  input.form-autocomplete{
+    background-image:none !important;
+}
+
+.custom_box_search .form-item-property-price-value-1-min,
+.custom_box_search .form-item-property-price-value-1-max
+{
+    float: left;
+    width: 50%;
+}
+
+.custom_box_search .ui-widget-header{
+    background: none;
+}
+.custom_box_search .bef-slider.ui-slider-horizontal{
+    margin: 6px 20px;
+    clear: both
+}
+
+.custom_box_search label
+{
+    display:none;
 }
 
 .custom_box_search .views-widget-per-page
 {
-  
   text-align: center;
-} 
-.custom_box_search .views-exposed-form .views-exposed-widget
-{
-  float: none;
 }
+
+.custom_box_search .form-item-items-per-page label
+{
+    display:block;
+    
+    width: 120px;
+    color: #c18229;
+    font-size: 18px;
+
+    text-transform: none;
+    font-weight: 300;
+    display: inline-block;
+    
+    background: #E9E6D5;
+    
+}
+
+.custom_box_search .form-item-items-per-page select
+{
+    margin-top: 20px;
+}
+
+
+.custom_box_search .form-item-items-per-page
+{
+    background: url(../images/strike-through-gold.gif) 0 13px repeat-x;
+
+}
+
+
+
 
 .custom_box_search .views-submit-button
 {
@@ -314,32 +379,50 @@ select{
 }
 
 
-.custom_box_search .views-submit-button input
+.custom_box_search input[type=submit] 
 {
 
-  
-  background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+  background:linear-gradient(to bottom, #7292B8 0%, #476D9E 100%);
   border-radius:0px;
   background-color:#637aad;
-  border:1px solid #314179;
-  display:inline-block;
+  border:1px solid #496B9B;
+
   color:#ffffff;
+  font-weight: normal;
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   letter-spacing: 2px;
-  padding:10px 12px;
+
   text-decoration:none;
   text-shadow: none;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  margin-top:5px;
+}
+
+.custom_box_search .views-reset-button input[type=submit] 
+{
+
+  background:linear-gradient(to bottom, #f62b2b 0%, #d20202 100%);
+  border:1px solid #d20202;
   font-size: 16px;
-  margin-top: 0.6em !important;
-  width: 215px;
 
 }
+
+
 /* BOX SEARCH*/
 /*************************/
 
 /***************************/
 /* LIST VIEW PROPERTIES*/
 
+body.page-properties #page-title
+{
+  text-align: center;
+  border-bottom: 1px solid #c1c1c1;
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
 
 .view-real-estate-property-list .view-content .views-field.views-field-property-photo img
 {
@@ -379,7 +462,10 @@ select{
 
 .custom-column-property .views-field.views-field-title,
 .custom-column-property .views-field.views-field-property-bedrooms,
+
 .custom-column-property .views-field.views-field-field-bath-total,
+.custom-column-property .views-field.views-field-field-total-baths,
+
 .custom-column-property .views-field.views-field-field-location,
 .custom-column-property .views-field.views-field-field-type-property,
 .custom-column-property .views-field.views-field-property-price
@@ -463,13 +549,24 @@ select{
 /***************************/
 /*** CSS BLOG ***/
 
-.custom_list_properties h1
+
+
+body.page-blogs #page-title
 {
   text-align: center;
   border-bottom: 1px solid #c1c1c1;
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   font-weight: normal;
 }
+
+body.node-type-blog #page-title
+{
+  text-align: center;
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+
+
 
 .view-blogs.view-id-blogs .views-row
 {
@@ -540,6 +637,168 @@ select{
 /**************************/
 /* END custom css footer */
 /************************/
+
+/******************************/
+/* START second sidebar css   */
+/******************************/
+
+.custom-block-remax-logo{
+    
+    border: 1px solid #CBCAC7;
+    border-bottom: none;
+    text-align: center;
+    margin-top: -40px;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 40px 10px;
+    
+    font-size: 14px;
+ 
+
+}
+
+/******************************/
+/* END second sidebar css   */
+/******************************/
+
+/******************************/
+/* START pagination css   */
+/******************************/
+
+/* Pagers Positioning */
+.item-list .pager {
+  padding:0;
+  margin: 0;
+}
+
+.item-list .pager li,
+.item-list .pager ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.item-list .pager {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  text-align: left;
+  float: right;
+  margin-right: 45px;
+  
+}
+
+.pager li.pager-ellipsis{
+    display: none;
+}
+
+.pager li a {
+  display: inline-block;
+}
+
+.pager li.pager-ellipsis,
+.pager li.pager-current,
+.pager li a {
+  padding:4px 8px;
+  text-decoration: none;
+}
+
+.pager li.pager-current {
+  padding:4px 8px;
+  font-weight: bold;
+}
+
+.pager li.pager-first a,
+.pager li.pager-previous a,
+.pager li.pager-next a,
+.pager li.pager-last a {
+  width: 65px;
+  text-align:center;
+  padding: 4px 0;
+}
+
+.pager li.pager-next {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.pager li.pager-last,
+.pager li.pager-next.last {
+  position: relative;
+  top: 0;
+  right: 0;
+  border-right: 0;
+}
+
+/* Pagers color */
+.pager li.pager-ellipsis,
+.pager li.pager-current,
+.pager li a {
+  color:#8F8F8F;
+}
+
+.pager li {
+  border-right: 0px solid;
+  color: #8F8F8F;
+  font-size: 16px;
+  outline: 0;
+}
+
+.pager li.pager-current {
+  background: none; 
+  background-color:#526F9C !important;
+  color: #FFF;
+  outline: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.pager li.pager-next {
+  border-left: 0 solid;
+  border-color: #ddd #bbb #999;
+}
+
+.pager li a {
+  background-color: #FFF;;
+  cursor: pointer;
+  color: #8F8F8F;
+  font-size: 14px;
+}
+
+.pager li a:hover {
+  background:#526F9C;
+  color:#FFF;
+}
+
+/* Add default border radius to list items & links */
+.pager {
+  background:#FFF;
+  border:0px solid;
+  border-color: #FFF;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+ 
+}
+
+.pager li.first,
+.pager li.first a,
+.pager li.first a:hover {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.pager li.pager-last,
+.pager li.pager-last a,
+.pager li.pager-last a:hover {
+   border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
 
 /*
 .page-node .region-content-inner ol,

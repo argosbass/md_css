@@ -1,3 +1,8 @@
+/***************************/
+/*    2nd FILE PRIORITY    */
+/***************************/
+
+
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
@@ -68,3 +73,17 @@
 
 /* LIST VIEW PROPERTIES*/
 /***************************/
+
+
+
+/******************************/
+/* START pagination css   */
+/******************************/
+
+.item-list .pager {
+  margin-right: 15px;
+}
+
+.pager li.pager-ellipsis{
+    display: block;
+}

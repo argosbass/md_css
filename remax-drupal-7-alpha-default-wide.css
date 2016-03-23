@@ -1,3 +1,6 @@
+/***************************/
+/*    5th FILE PRIORITY    */
+/***************************/
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
 /***************************/
@@ -29,17 +32,17 @@
 
 .custom-column-property.grid-3{
     
-    width: 220px !important;
-    margin: 0 35px 20px;
+    width: 250px !important;
+    margin: 0 20px 20px;
     border: 1px solid #D7CAA7;
 }
 
 .view-real-estate-property-list .view-content .views-field.views-field-property-photo img
 {
-  max-width: 220px;
-  max-height: 146px;
-  width: 220px;
-  height: 146px;
+  max-width: 250px;
+  max-height: 176px;
+  width: 250px;
+  height: 176px;
 
 }
 
@@ -69,7 +72,7 @@
 
 /*************************/
 /* BOX SEARCH */
-.custom_box_search
+.OLD_custom_box_search
 {
   background-color: #E9E6D5;
   border-bottom-right-radius: 10px;
@@ -92,31 +95,31 @@ select{
   width: 215px;
 }
 
-.custom_box_search .form-type-textfield input
+.OLD_custom_box_search .form-type-textfield input
 {
   width: 215px;
   border-radius:4px;
   margin-top: 5px;
 }
 
-.custom_box_search .views-widget-per-page
+.OLD_custom_box_search .views-widget-per-page
 {
   
   text-align: center;
 } 
-.custom_box_search .views-exposed-form .views-exposed-widget
+.OLD_custom_box_search .views-exposed-form .views-exposed-widget
 {
   float: none;
 }
 
-.custom_box_search .views-submit-button
+.OLD_custom_box_search .views-submit-button
 {
   text-align: center;
 
 }
 
 
-.custom_box_search .views-submit-button input
+.OLD_custom_box_search .views-submit-button input
 {
 
   
@@ -138,4 +141,14 @@ select{
 }
 /* BOX SEARCH*/
 /*************************/
+
+
+
+/******************************/
+/* START pagination css   */
+/******************************/
+
+.item-list .pager {
+  margin-right: 25px;
+}
 
