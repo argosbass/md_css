@@ -192,3 +192,27 @@ select{
 /**************************/
 
 
+/**************************/
+/*START custom css footer*/
+/**************************/
+.custom_footer_block.block-4{
+  margin-left: 2%;
+}
+.custom_footer_block.block-3{
+  margin-left: 8%;
+}
+
+.custom_footer_block.block-2{
+  margin-left: 6%;
+}
+
+
+.custom-block-remax-logo img{
+   width: 50%;
+}
+
+
+
+/**************************/
+/* END custom css footer */
+/************************/

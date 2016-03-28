@@ -120,9 +120,7 @@ select{
 
 
 .OLD_custom_box_search .views-submit-button input
-{
-
-  
+{ 
   background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
   border-radius:0px;
   background-color:#637aad;
