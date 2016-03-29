@@ -19,6 +19,10 @@ tr.odd:hover td.active {
   background: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+
 body {
         background: #E9E6D5;
     }
@@ -165,7 +169,6 @@ body.front .tabs{display: none;}
   color: #335387;
   margin-top: 10px;
   margin-bottom: 10px;
-  
 }
 
 #superfish-1-toggle
@@ -646,7 +649,7 @@ body.node-type-blog #page-title
 .custom_footer_block h2.block-title{
   font-weight:normal;
  
-  font-size: 17px;
+  font-size: 16px;
   color: '#1111';
 }
 
@@ -846,6 +849,15 @@ body.node-type-blog #page-title
   -webkit-border-radius: 0px;
 }
 
+/*********************************************************/
+/******SHOW PRINCIPAL SEARCH VIEW ALL PROPERTIES**********/
+/*********************************************************/
+.custom_box_search_responsive{
+  display:block;
+}
+/*********************************************************/
+/******SHOW PRINCIPAL SEARCH VIEW ALL PROPERTIES**********/
+/*********************************************************/
 
 /*
 .page-node .region-content-inner ol,
