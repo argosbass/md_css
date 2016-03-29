@@ -111,13 +111,48 @@ body.front .tabs{display: none;}
 .logo-img{
   width: 100%;
   text-align: center;
-  margin-left: -3%;
-
 }
 /*    BANNER MAIN  */
 /***************************/
     
+/************************************/
+/******DETAIL PROPERTY CSS**********/
+.custom_list_properties .title{
+  font-weight: normal;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+}
 
+body.context-property .block-system-main #real-estate-media{
+float: none;
+width: 80%;
+}
+
+
+body.context-property .block-system-main #real-estate-description h3{
+  font-weight: normal;
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+
+}
+
+body.context-property .block-system-main .real-estate-description-b p{
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+
+.custom_similar_properties .views-field-property-photo img{
+  width: 140px;
+  height: 130px;
+}
+
+.custom_info_properties
+{
+  background-color: #FFFFFF;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 6px;
+  border: 1px solid #CBCAC7;
+}
+/******DETAIL PROPERTY CSS**********/
+/************************************/
 
 
 /***************************/
@@ -637,10 +672,12 @@ body.node-type-blog #page-title
 } 
 body.page-blogs .view-blogs.view-id-blogs .views-row .views-field-body img
 {
-  
   display: none;
-  
 } 
+
+body.page-node.node-type-blog article{
+ padding-left: 4%;
+}
 
 /*** CSS BLOG ***/
 /**************************/
@@ -695,7 +732,6 @@ body.page-blogs .view-blogs.view-id-blogs .views-row .views-field-body img
 /******************************/
 
 .custom-block-remax-logo{
-    
     border: 1px solid #CBCAC7;
     border-bottom: none;
     text-align: center;
@@ -703,12 +739,8 @@ body.page-blogs .view-blogs.view-id-blogs .views-row .views-field-body img
     background-color: #fff;
     z-index: 1000;
     padding: 40px 10px;
-    
     font-size: 14px;
- 
-
 }
-
 /******************************/
 /* END second sidebar css   */
 /******************************/
@@ -834,6 +866,7 @@ body.page-blogs .view-blogs.view-id-blogs .views-row .views-field-body img
   -webkit-border-radius: 0px;
  
 }
+
 
 .pager li.first,
 .pager li.first a,
