@@ -102,7 +102,7 @@ body.front .tabs{display: none;}
 
 
 /***************************/
-    /*    BANNER MAIN  */
+/*    BANNER MAIN  */
 .custom_info_banner{
   text-align: center;
   vertical-align: top;
@@ -114,7 +114,7 @@ body.front .tabs{display: none;}
   margin-left: -3%;
 
 }
-    /*    BANNER MAIN  */
+/*    BANNER MAIN  */
 /***************************/
     
 
@@ -635,9 +635,11 @@ body.node-type-blog #page-title
 {
   color: #AA8C70;
 } 
-.view-blogs.view-id-blogs .views-row .views-field-body img
+body.page-blogs .view-blogs.view-id-blogs .views-row .views-field-body img
 {
+  
   display: none;
+  
 } 
 
 /*** CSS BLOG ***/
