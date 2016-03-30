@@ -41,6 +41,26 @@
 
 /***************************/
 
+/************************************/
+/******DETAIL PROPERTY CSS**********/
+.custom_similar_properties .block-title{
+  /*color: pink;*/
+}
+.custom_similar_properties .views-field-property-photo img{
+  width: 140px;
+  height: 130px;
+}
+.custom_similar_properties .view-similar-properties .views-column{
+  margin-top:none;
+  border-bottom:none;
+  margin:none;
+}
+.custom_similar_properties .custom-column-property .views-field-title{
+  height: 75px;
+  border-bottom: 1px solid #c1c1c1;
+}
+/******DETAIL PROPERTY CSS**********/
+/************************************/
 
 
 /******************************/

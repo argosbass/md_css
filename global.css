@@ -120,6 +120,7 @@ body.front .tabs{display: none;}
 .custom_list_properties .title{
   font-weight: normal;
   font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
 }
 
 body.context-property .block-system-main #real-estate-media{
@@ -131,7 +132,6 @@ width: 80%;
 body.context-property .block-system-main #real-estate-description h3{
   font-weight: normal;
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
-
 }
 
 body.context-property .block-system-main .real-estate-description-b p{
@@ -139,22 +139,87 @@ body.context-property .block-system-main .real-estate-description-b p{
 }
 
 .custom_similar_properties .views-field-property-photo img{
-  width: 140px;
-  height: 130px;
+  width: 240px;
+  height: 180px;
 }
 
+
+.custom_similar_properties{
+  border-top: 1px solid #D1CAC4;
+
+}
+
+.custom_similar_properties .block-title{
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #BA8550;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.custom_similar_properties .view-similar-properties .views-column{
+  margin-top: 30px;
+  border-bottom: 9px double #d7caa7;
+  margin:0 35px 20px;
+}
+
+/******DETAIL PROPERTY CSS**********/
+/************************************/
+
+
+/*********************/
+/**BLOCK PROPERTIES**/
+/*********************/
 .custom_info_properties
 {
-  background-color: #FFFFFF;
+  margin-top: 180px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 6px;
   border: 1px solid #CBCAC7;
 }
-/******DETAIL PROPERTY CSS**********/
-/************************************/
+
+.custom_info_properties_map
+{
+  margin-top: 220px;
+}
+
+.custom_info_properties .custom-column-property .views-field {
+  font-weight: bold;
+}
+
+.custom_info_properties .custom-column-property div{
+  margin-top: 13px;
+}
+
+.custom_info_properties .custom-column-property .views-field div{
+  display: inline-flex;
+  font-weight: normal;
+}
+
+.custom_info_properties .views-field-property-bedrooms,
+.custom_info_properties .views-field-field-total-baths,
+.custom_info_properties .views-field-field-type-property,
+.custom_info_properties .views-field-property-price,
+.custom_info_properties .views-field-field-location
+{
+  display: block !important;
+}
+
+/*********************/
+/**BLOCK PROPERTIES**/
+/*********************/
 
 
+
+#property_photo .bx-wrapper{
+  max-width: 100% !important;
+}
+#property_photo .bx-wrapper li{
+  margin-left: 5px;
+}
 /***************************/
 /*********************************/
 /*      MAIN SLIDER STYLES       */
