@@ -41,6 +41,22 @@
 
 /***************************/
 
+
+/*********************/
+/**BLOCK PROPERTIES**/
+/*********************/
+.custom_info_properties
+{
+  margin-top: 180px;
+}
+.custom_info_properties_map
+{
+  margin-top: 220px;
+}
+/*********************/
+/**BLOCK PROPERTIES**/
+/*********************/
+
 /************************************/
 /******DETAIL PROPERTY CSS**********/
 .custom_similar_properties .block-title{
@@ -57,7 +73,6 @@
 }
 .custom_similar_properties .custom-column-property .views-field-title{
   height: 75px;
-  border-bottom: 1px solid #c1c1c1;
 }
 /******DETAIL PROPERTY CSS**********/
 /************************************/

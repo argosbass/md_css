@@ -162,7 +162,6 @@ body.context-property .block-system-main .real-estate-description-b p{
 .custom_similar_properties .view-similar-properties .views-column{
   margin-top: 30px;
   border-bottom: 9px double #d7caa7;
-  margin:0 35px 20px;
 }
 
 /******DETAIL PROPERTY CSS**********/
@@ -174,29 +173,31 @@ body.context-property .block-system-main .real-estate-description-b p{
 /*********************/
 .custom_info_properties
 {
-  margin-top: 180px;
+  margin-top: 40px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 6px;
   border: 1px solid #CBCAC7;
+  width: 75%;
+  margin-left: 40px;
+
+-webkit-box-shadow: 0px 0px 0px 2px rgba(204,204,204,0.75);
+-moz-box-shadow: 0px 0px 0px 2px rgba(204,204,204,0.75);
+box-shadow: 0px 0px 0px 2px rgba(204,204,204,0.75);
 }
 
 .custom_info_properties_map
 {
-  margin-top: 220px;
-}
-
-.custom_info_properties .custom-column-property .views-field {
-  font-weight: bold;
+  margin-top: 147px;
 }
 
 .custom_info_properties .custom-column-property div{
   margin-top: 13px;
 }
-
-.custom_info_properties .custom-column-property .views-field div{
-  display: inline-flex;
-  font-weight: normal;
+.custom_info_properties .custom-column-property .views-label{
+  float: left;
+  width: 50%;
+  font-weight: bold;
 }
 
 .custom_info_properties .views-field-property-bedrooms,
@@ -471,17 +472,13 @@ border-bottom: 1px solid #335387;
 .custom_box_search .form-item-items-per-page label
 {
     display:block;
-    
     width: 120px;
     color: #c18229;
     font-size: 18px;
-
     text-transform: none;
     font-weight: 300;
     display: inline-block;
-    
-    background: #E9E6D5;
-    
+    background: #E9E6D5;  
 }
 
 
@@ -498,7 +495,6 @@ border-bottom: 1px solid #335387;
 .custom_box_search .form-item-items-per-page
 {
     background: url(../images/strike-through-gold.gif) 0 13px repeat-x;
-
 }
 
 
@@ -507,7 +503,6 @@ border-bottom: 1px solid #335387;
 .custom_box_search .views-submit-button
 {
   text-align: center;
-
 }
 
 
@@ -551,7 +546,6 @@ border-bottom: 1px solid #335387;
 body.page-properties #page-title
 {
   text-align: center;
-  border-bottom: 1px solid #c1c1c1;
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   font-weight: normal;
 }
