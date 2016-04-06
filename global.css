@@ -20,7 +20,9 @@ tr.odd:hover td.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
 }
 
 body {
@@ -32,7 +34,6 @@ p{
    line-height: 22px;
    font-size: 14px;
 }
-    
     
 div#zone-user,
 div#zone-branding,
@@ -90,8 +91,18 @@ div#region-footer-fourth
 
 a:link   
 {   
+ color: #466C9D;   
  text-decoration:none;   
-}  
+}
+
+
+a:hover
+{
+  color: #E57B42;
+
+}
+
+
 /*********************************/
 /*      FRONT STYLES       */
 /*********************************/
@@ -537,8 +548,165 @@ border-bottom: 1px solid #335387;
 }
 
 
-/* BOX SEARCH*/
+/* BOX SEARCH */
 /*************************/
+
+
+/**************************************/
+/* BOX SEARCH BLOG - REAL ESTATE*/
+
+.custom_box_search_blog,
+.custom_box_search_realestate
+{
+  background-color: #E9E6D5;
+  padding: 30px 40px;
+  border: 1px solid #CBCAC7;
+  border-bottom: 1px solid #D0CEA7;
+  
+  margin-top: 15px;
+}
+
+.custom_box_search_blog .search-form,
+.custom_box_search_blog .form-item,
+.custom_box_search_blog .form-actions,
+
+.custom_box_search_realestate .search-form,
+.custom_box_search_realestate .form-item,
+.custom_box_search_realestate .form-actions
+
+{
+    margin: 0px;
+}
+
+.custom_box_search_blog input,
+.custom_box_search_realestate input
+{
+    color: #888888;
+    width: 80%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid #E2E1DD;
+    border-right: 0;
+    border-radius: 0px;
+    height: 34px;
+    box-shadow: none;
+    float: left;
+}
+
+.custom_box_search_blog input[type=submit],
+.custom_box_search_realestate input[type=submit]
+{
+    color: transparent;
+
+    padding: 5px;
+
+    overflow: hidden;
+    text-indent: -9999px;                 /* sends the text off-screen */
+    background-image: url(/the_img.png);  /* shows image */
+    white-space: nowrap;   
+
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid #E2E1DD;
+    border-radius: 0px;
+    height: 34px;
+    box-shadow: none;
+
+    border-left: 0;
+    background: transparent url(../images/icon-search.png) no-repeat center;
+    
+    background-color: #fff;
+    width: 15%;
+
+}
+
+
+
+/* BOX SEARCH BLOG - REAL ESTATE*/
+/**************************************/
+
+/**************************************/
+/* RECENT POST BLOCK            */
+.recent_post_block{
+  background-color: #E9E6D5;
+  padding: 20px 40px;
+  border: 1px solid #CBCAC7;
+  border-bottom: 1px solid #D0CEA7;
+  border-top:  0px solid #D0CEA7;
+}
+.recent_post_block .block-title{
+  font-size: 32px;
+  color:#979893;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  
+}
+.recent_post_block .view-recent-post li
+{
+    margin: 0;
+    margin: 0 0 15px;
+    font-size: 14px;
+    text-transform: lowercase;
+    line-height: 1.2;
+}
+
+.recent_post_block .view-recent-post li:first-letter {
+    text-transform: uppercase;
+}
+
+.recent_post_block .view-recent-post a:hover
+{
+  color: #E57B42;
+}
+
+
+/* RECENT POST BLOCK            */
+/**************************************/
+
+/**************************************/
+/* BLOG ARTICLES BLOCK            */
+.blog_articles_block{
+  background-color: #E9E6D5;
+  padding: 20px 40px;
+  border: 1px solid #CBCAC7;
+  border-bottom: 1px solid #D0CEA7;
+  border-top:  0px solid #D0CEA7;  
+}
+.blog_articles_block .block-title{
+  font-size: 32px;
+  color:#979893;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.blog_articles_block .view-blogs{
+    padding: 0;
+}
+.blog_articles_block .view-blogs li
+{
+    margin: 0;
+    margin: 0 0 15px;
+    font-size: 14px;
+    text-transform: lowercase;
+    line-height: 1.2;
+}
+.blog_articles_block .view-blogs li:first-letter {
+    text-transform: uppercase;
+}
+
+.blog_articles_block .view-blogs a:hover
+{
+  color: #E57B42;
+}
+
+
+/* BLOG ARTICLES BLOCK            */
+/**************************************/
+
+
+
+
 
 /***************************/
 /* LIST VIEW PROPERTIES*/
@@ -575,6 +743,12 @@ body.page-properties #page-title
   margin:20px 10px;
   background-position: 3px 6px;
 }
+
+.view-real-estate-property-list .views-field.views-field-view-node span a:hover
+{
+  color: #E57B42;
+}
+
 .view-real-estate-property-list .views-field.views-field-view-node span a
 {
   margin-left: 20px;
@@ -682,9 +856,14 @@ body.page-properties #page-title
 body.page-blogs #page-title
 {
   text-align: center;
-  border-bottom: 1px solid #c1c1c1;
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   font-weight: normal;
+  margin: 0 24px;
+  color: #6F6F6F;
+}
+
+body.node-type-blog .blog_usernames_blog{
+    display: none;
 }
 
 body.node-type-blog #page-title
@@ -692,44 +871,63 @@ body.node-type-blog #page-title
   text-align: center;
   font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
   font-weight: normal;
+  color: #6F6F6F;
 }
 
 
-
-.view-blogs.view-id-blogs .views-row
+body.page-blogs .region-content .view-blogs.view-blogs
 {
+ margin: 10px 25px;
+}
 
-  border-bottom: 1px solid #c1c1c1;
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row
+{
+  border-top: 1px solid #DBD2B9;
   margin-top: 20px;
+  padding: 40px 0;
+  min-height: 180px;
 } 
 
-.view-blogs.view-id-blogs .views-row .views-field-field-image
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-field-image
 {
-  text-align: center;
-  vertical-align: top;
+    vertical-align: top;
+    
+    text-align: center;
 } 
 
-.view-blogs.view-id-blogs .views-row .views-field-title
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-field-image img
 {
-  text-align: left;
-  padding-left: 5%;
+    width: 285px;
+    height: 180px;
+    border: 1px solid #8B9BA7;
+} 
+
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-title
+{
+
+  padding-left: 20px;
   font-size: 23px;
+  display: block;
+  margin-bottom: 15px;
+  
 } 
-.view-blogs.view-id-blogs .views-row .views-field-title a:hover
-{
- color: #AA8C70;
+
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-title a:hover
+{   
+    color: #AA8C70;
+
 }
-.view-blogs.view-id-blogs .views-row .views-field-body
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-body
 {
   text-align: left;
-  padding-left: 5%;
   color: grey;
-} 
-.view-blogs.view-id-blogs .views-row .views-field-body a:hover
-{
-  color: #AA8C70;
-} 
-body.page-blogs .view-blogs.view-id-blogs .views-row .views-field-body img
+  font-size: 16px;
+ 
+
+
+}
+
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-body img
 {
   display: none;
 } 
@@ -951,6 +1149,111 @@ body.page-node.node-type-blog article{
 }
 /*********************************************************/
 /******SHOW PRINCIPAL SEARCH VIEW ALL PROPERTIES**********/
+/*********************************************************/
+
+/*********************************************************/
+/****** SEARCH PAGE      **********/
+/*********************************************************/
+
+body.page-search #page-title
+{
+  text-align: center;
+  font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  margin: 0 24px;
+  color: #6F6F6F;
+}
+body.page-search .region-content .block-main{
+    margin: 10px 25px;
+
+}
+
+body.page-search .region-content .block-main h2 {
+    display: none;
+}
+
+body.page-search .region-content .block-main .search-results li {
+    border-top: 1px solid #DBD2B9;
+    margin-top: 20px;
+    padding: 40px 0;
+}
+
+body.page-search .region-content .block-main .search-results li .title {
+    font-size: 23px;
+}
+body.page-search .region-content .block-main .search-results li .search-snippet-info p{
+    text-align: left;
+    font-size: 16px;
+}
+body.page-search .region-content .block-main .search-results li .search-snippet-info .search-info{
+    display: none;
+}
+
+body.page-search .region-content .block-main .search-results li .search-snippet-info strong{
+    color: #E57B42;
+}
+body.page-search .region-content .search-advanced{
+    display: none;
+}
+
+
+body.page-search .region-content .block-main .search-form label
+{
+    display: none;
+}
+
+body.page-search .region-content .block-main .search-form
+{
+    min-height: 50px;
+    clear: both;
+}
+
+body.page-search .region-content .block-main .search-form input
+{
+    color: #888888;
+    width: 85%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid #E2E1DD;
+    border-right: 0;
+    border-radius: 0px;
+    height: 34px;
+    box-shadow: none;
+    float: left;
+}
+
+body.page-search .region-content .block-main .search-form input[type=submit]
+{
+    color: transparent;
+
+    padding: 5px;
+
+    overflow: hidden;
+    text-indent: -9999px;                 /* sends the text off-screen */
+    background-image: url(/the_img.png);  /* shows image */
+    white-space: nowrap;   
+
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid #E2E1DD;
+    border-radius: 0px;
+    height: 34px;
+    box-shadow: none;
+
+    border-left: 0;
+    background: transparent url(../images/icon-search.png) no-repeat center;
+    
+    background-color: #E2E1DD;
+    width: 15%;
+
+}
+
+
+
+    
+/*********************************************************/
+/****** SEARCH PAGE      **********/
 /*********************************************************/
 
 /*

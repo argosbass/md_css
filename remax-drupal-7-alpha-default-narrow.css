@@ -85,6 +85,19 @@
 /* END second sidebar css   */
 /******************************/
 
+/**************************************/
+/* BOX SEARCH BLOG - REAL ESTATE*/
+
+.custom_box_search_blog,
+.custom_box_search_realestate
+{
+    margin-top: -40px;
+    z-index: 1000;
+}
+
+/* BOX SEARCH BLOG - REAL ESTATE*/
+/**************************************/
+
 
 /*********************************************************/
 /******HIDE PRINCIPAL SEARCH VIEW ALL PROPERTIES**********/

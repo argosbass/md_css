@@ -162,27 +162,27 @@ select{
 
 /**************************/
 /*** CSS BLOG ***/
-.view-blogs.view-id-blogs .views-row
+._view-blogs.view-id-blogs .views-row
 {
   display: table;
   border-bottom: 1px solid #c1c1c1;
   margin-top: 20px;
 } 
 
-.view-blogs.view-id-blogs .views-row .views-field-field-image
+._view-blogs.view-id-blogs .views-row .views-field-field-image
 {
   text-align: left;
   display: table-cell;
   vertical-align: top;
 } 
 
-.view-blogs.view-id-blogs .views-row .views-field-title
+._view-blogs.view-id-blogs .views-row .views-field-title
 {
   text-align: left;
   padding-left: 5%;
   font-size: 23px;
 } 
-.view-blogs.view-id-blogs .views-row .views-field-body
+._view-blogs.view-id-blogs .views-row .views-field-body
 {
   padding-left: 5%;
   color: grey;
@@ -233,3 +233,16 @@ select{
 /**************************/
 /* END custom css footer */
 /************************/
+
+
+/******************************/
+/* BLOG List                  */
+/******************************/
+body.page-blogs .region-content .view-blogs.view-id-blogs .views-row .views-field-field-image
+{
+    vertical-align: top;
+    
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+} 
